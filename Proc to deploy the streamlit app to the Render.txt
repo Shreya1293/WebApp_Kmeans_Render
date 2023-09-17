@@ -1,8 +1,0 @@
-In the app.py file enter the path to the loading of the model as "loaded_model=pickle.load(open('House_model.sav','rb'))"
-	make sure you have saved the app.py file in the same place as house_model.sav or vice versa.
-
-save all the files- app.py, runtime, setup.sh, requirements, Procfile, House_model.sav to Github Repository
-
-Go to render and create a new web service. in place of start command enter "web: sh setup.sh && streamlit run app.py" (Procfile)
-
-deploy and open the new link "https://house-price-pred-sc7n.onrender.com"
